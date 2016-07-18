@@ -66,6 +66,10 @@ module.exports = class Kissanime {
         }
     }
 
+    getVideo(rawURI) {
+      
+    }
+
     static wait(callback) {
         if (kissanime.busy) {
             setTimeout(Kissanime.wait, 100, callback);

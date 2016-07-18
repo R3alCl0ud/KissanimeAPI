@@ -112,6 +112,7 @@ request({
                 value: null
             };
 
+            // Successful part one execution
             console.log("\t\tPart One Successfully Ran! Now Attempting Part Two. . .".white);
             var selectedStringTwo = jsdata.split('\n')[15].substr(8, jsdata.split('\n')[15].length);
             eval(selectedStringTwo);
